@@ -1,5 +1,16 @@
 <?php
-require_once '../account/auth.php';
+session_start(); // Start the session
+
+// Check if the request is made via AJAX
+if (!isset($_SERVER['HTTP_X_REQUESTED_WITH']) || strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) !== 'xmlhttprequest') {
+    // If not an AJAX request, redirect to error.php
+    ?>
+        <h1>You cant be on this page pls go out</h1>
+    <?php
+    exit(); // Stop further execution
+}
+
+// Your existing HTML content can go below this
 ?>
 
 <div class="container-fluid">

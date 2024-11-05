@@ -18,8 +18,8 @@
             </a>
         </li>
         <li class="side-nav-title">Reports</li>
-            <li class="nav-item">
-            <a href="#" class="nav-link">
+        <li class="nav-item">
+            <a href="#"  id="sales-link" class="nav-link">
                 <i class="bi bi-graph-up"></i>
                 <span class="fs-6 ms-2">Sales</span>
             </a>
@@ -38,7 +38,7 @@
             </a>
         </li>
         <li class="nav-item">
-            <a href="accounts" id="accounts-link" class="nav-link">
+            <a href="accounts" id="account-link" class="nav-link">
                 <i class="bi bi-people"></i>
                 <span class="fs-6 ms-2">Accounts</span>
             </a>
